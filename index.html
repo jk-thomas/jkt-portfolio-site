@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua Thomas | Portfolio</title>
+  <link href="styles.css" rel="stylesheet">
+  <!-- <script src="script.js" defer></script> -->
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><a href="#home"><strong>Joshua Thomas</strong></a></div>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-toggle" id="navToggle">☰</div>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Hello, I’m Joshua Thomas</h1>
+    <p>Software Engineer, welcome to my portfolio.</p>
+    <a href="projects.html" class="resume-btn">See My Work</a>
+  </section>
+
+  <section class="info" id="about">
+    <h2>About Me</h2>
+    <p>Brief bio about background, skills, passionate about.</p>
+  </section>
+
+  <section class="info" id="education">
+    <h2>Education</h2>
+    <p>List of all education completed/in progress</p>
+  </section>
+
+  <section class="info" id="experience">
+    <h2>Experience</h2>
+    <p>List of companies and description of work</p>
+  </section>
+
+  <section class="info" id="skills">
+    <h2>Skills</h2>
+    <p>List or icons for languages, frameworks, tools, etc.</p>
+  </section>
+
+  <section class="info" id="certifications">
+    <h2>Certifications</h2>
+    <p>List of earned certifications/test scores</p>
+  </section>
+
+  <section class="info" id="courses">
+    <h2>Courses</h2>
+    <p>List of courses/curriculum completed/in progress</p>
+  </section>
+
+  <section class="info" id="professionalAssociation">
+    <h2>Professional Association</h2>
+    <p>List of professional associations apart of and work done</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Resume</h2>
+    <p>joshkthom@gmail.com</p>
+    <p><a href="linkedin.com/in/joshua-thomas-29b1b9164/">LinkedIn</a></p>
+    <p><a href="https://github.com/jk-thomas">GitHub</a></p>
+    <!-- <form action="mailto:you@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send</button>
+    </form> -->
+    <a href="assets/resume.pdf" class="resume-btn" download>Download Resume</a>
+  </section>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+      navLinks.style.flexDirection = 'column';
+    });
+
+    // // Smooth scroll
+    // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    //   anchor.addEventListener('click', function(e) {
+    //     e.preventDefault();
+    //     document.querySelector(this.getAttribute('href')).scrollIntoView({
+    //       behavior: 'smooth'
+    //     });
+    //   });
+    // });
+  </script>
+</body>
+</html>
