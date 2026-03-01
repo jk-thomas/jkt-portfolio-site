@@ -1,4 +1,4 @@
-import { createNavbar } from "/frontend/js/components/navBar.js";
+import { createNavbar } from "./components/navBar.js";
 import { createFooter } from "./components/footer.js";
 //import { createProjectCard }
 import { projects } from "./data/projects.js";

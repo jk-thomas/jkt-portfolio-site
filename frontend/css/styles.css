@@ -72,7 +72,7 @@ nav {
 }
 
 /* Sections */
-section { padding: 4rem 1rem; }
+section { padding: 2rem 1rem; }
 #home { 
 	display: flex; 
 	flex-direction: column; 

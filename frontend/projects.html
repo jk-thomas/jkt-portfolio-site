@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joshua Thomas | Projects</title>
   <link href="/frontend/css/styles.css" rel="stylesheet">
-  <script src="projects.js" defer></script>
+  <script type="module" src="/frontend/js/data/projects.js" defer></script>
   <!-- <script src="script.js" defer></script> -->
 </head>
 <body>
-  <header>
-    <nav>
+  <header id="header">
+    <!-- <nav>
       <div class="logo" style="font-family: 'Tahoma'"><a href="index.html#home"><strong>Joshua Thomas</strong></a></div>
       <div class="nav-links">
         <a href="index.html#about">About</a>
@@ -18,7 +18,7 @@
         <a href="index.html#contact">Contact</a>
       </div>
       <div class="nav-toggle" id="navToggle">☰</div>
-    </nav>
+    </nav> -->
   </header>
 
   <main class="projects-grid">
@@ -168,7 +168,9 @@
       </div>
   </main>
 
-  <script>
+  <div id="footer"></div>
+
+  <!-- <script>
     // Mobile nav toggle
     const navToggle = document.getElementById('navToggle');
     const navLinks = document.getElementById('navLinks');
@@ -176,6 +178,7 @@
       navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
       navLinks.style.flexDirection = 'column';
     });
-  </script>
+  </script> -->
+  
 </body>
 </html>

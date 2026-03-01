@@ -10,6 +10,15 @@
 // fetch
 // json
 
+import { createNavbar } from "/frontend/js/components/navBar.js";
+import { createFooter } from "/frontend/js/components/footer.js";
+
+let navBar = document.getElementById('header');
+navBar.innerHTML = createNavbar();
+
+let footer = document.getElementById('footer');
+footer.innerHTML = createFooter();
+
 export const projects = [
     {
         title: "Portfolio Site",
