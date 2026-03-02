@@ -1,7 +1,5 @@
 import { createNavbar } from "./components/navBar.js";
 import { createFooter } from "./components/footer.js";
-//import { createProjectCard }
-import { projects } from "./data/projects.js";
 
 // Mobile nav toggle
 // const navToggle = document.getElementById('navToggle');
@@ -11,21 +9,25 @@ import { projects } from "./data/projects.js";
 //     navLinks.style.flexDirection = 'column';
 // });
 
-// // Smooth scroll
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//   anchor.addEventListener('click', function(e) {
-//     e.preventDefault();
-//     document.querySelector(this.getAttribute('href')).scrollIntoView({
-//       behavior: 'smooth'
-//     });
-//   });
-// });
-
 let navBar = document.getElementById('header');
 navBar.innerHTML = createNavbar();
 
 let footer = document.getElementById('footer');
 footer.innerHTML = createFooter();
+
+initSmoothScroll();
+
+// Smooth scroll
+function initSmoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target)
+                target.scrollIntoView({behavior: 'smooth'});
+        });
+    });
+}
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 75)

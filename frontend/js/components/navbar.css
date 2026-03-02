@@ -1,0 +1,42 @@
+/* Sticky Header */
+header { 
+	top: 0;
+	background: #eeeeee; 
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.102); 
+	z-index: 1000; 
+}
+header.scrolled {
+	position: sticky;
+	max-width: 750px;
+	margin: 1rem auto;
+	border: 2px solid var(--button-hover);
+	border-radius: 48px;
+	top: 1rem;
+	transition: all 0.3s ease;
+}
+header.container {
+	padding: 0 1rem;
+}
+nav { 
+	display: flex; 
+	justify-content: space-between; 
+	margin: 0 auto; 
+	padding: 1rem; 
+}
+.logo { 
+    color: #303841; 
+    font-size: 1.5rem; 
+}
+.logo:hover { color: #121518 }
+.nav-links { 
+    color: #47555e; 
+    display: flex; gap: 1rem; 
+    font-size: 1.5rem; 
+}
+.nav-links a:hover { color: #303841 }
+.nav-toggle { 
+    color: #303841; 
+    display: none; 
+    font-size: 1.5rem; 
+}
+.nav-toggle:hover { color: #121518 }

@@ -1,0 +1,63 @@
+/*Project Page*/
+/* Grid */
+.projects-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 2rem; 
+    padding: 4rem 1rem; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+.card { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #47555e; 
+    /* border: 1px solid #ddd; */
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 1px 3px #999999; 
+    transition: transform 0.3s; 
+}
+.card:hover { 
+    transform: translateY(-5px); 
+    background: #54626b;
+}
+.card img { 
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
+}
+.card-content { 
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1rem; 
+}
+.card-content h3 { 
+    color: #eeeeee 
+}
+.card-content p { 
+    font-size: 0.9rem; 
+    color: #eeeeee; 
+    margin-bottom: 1rem; 
+}
+.card-content a { 
+    font-weight: bold; 
+    color: var(--link-primary); 
+}
+.card-content a:hover { 
+    font-weight: bold; 
+    color: var(--link-hover); 
+}
+.project-links {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-links .disabled {
+    color: var(--link-primary);
+    opacity: 0.8;
+    
+}

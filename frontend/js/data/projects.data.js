@@ -1,38 +1,17 @@
-// create new branch for new front end design
-// buttons with semi circle sides
-// themes:
-// 	k background
-// 	t text colors
-
-// chatgpt:
-// portfolio site system:
-// ctrl f:
-// fetch
-// json
-
-import { createNavbar } from "/frontend/js/components/navBar.js";
-import { createFooter } from "/frontend/js/components/footer.js";
-
-let navBar = document.getElementById('header');
-navBar.innerHTML = createNavbar();
-
-let footer = document.getElementById('footer');
-footer.innerHTML = createFooter();
-
 export const projects = [
     {
         title: "Portfolio Site",
         description: "multiplayer",
         tech: ["HTML/CSS", "Javascript", "Docker", "Nginx"],
         github: "#",
-        live: "#"
+        live: ""
     },
     {
         title: "ValetConnect",
         description: "Real-time multiplayer game using Socket.io",
         tech: ["Node", "Express", "Docker", "Socket.io"],
-        github: "#",
-        live: "#"
+        github: "",
+        live: ""
     },
     {
         title: "Mission EMR",
@@ -71,7 +50,7 @@ export const projects = [
     },
     {
         title: "Artificial Intelligence",
-        description: "multiplayer",
+        description: "Search, Multi-agent Search, Reinforcement Learning, Machine Learning",
         tech: ["Node", "Express", "Docker"],
         github: "#",
         live: "#"

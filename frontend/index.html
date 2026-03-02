@@ -4,23 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joshua Thomas | Portfolio</title>
-  <link href="/frontend/css/styles.css" rel="stylesheet">
+  <link href="/frontend/css/main.css" rel="stylesheet">
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <script type="module" src="/frontend/js/script.js" defer></script>
 </head>
 <body>
-  <header id="header">
-    <!-- <div id="navbar"></div> -->
-    <!-- <nav id="nav" class="container">
-      <div class="logo" style="font-family: 'Tahoma'"><a href="index.html"><strong>JT</strong></a></div>
-      <div class="nav-links" id="navLinks">
-        <a href="#about">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <div class="nav-toggle" id="navToggle">☰</div>
-    </nav> -->
-  </header>
+  <header id="header"></header>
 
   <content>
     <div class="container column">
@@ -33,10 +22,16 @@
       <section class="info" id="about">
         <h2>About Me</h2>
         <!-- <p>Brief bio about background, skills, passionate about.</p> -->
-        <p>I am a Software Engineering graduate from UIC, with certifications in IT. 
-          I have related experience in FSAE, software consulting, and data analysis.
-          I enjoy learning and building fullstack software using a variety of tech stacks, 
-          and deploying them locally and publicly for friends and family.</p>
+        <p>
+          I am a Software Engineering graduate from the University of Illinois Chicago, with certifications in IT. 
+          I have related experience in software consulting, data analysis, and Formula SAE.
+          I enjoy learning and building fullstack applications using a variety of modern web technology stacks. 
+          And some get containerized and deployed locally alongside hosting services via Raspberry Pi, and others go public for friends and family.
+        </p>
+        <p>
+          The last few years, time has been spent reviewing/revising college material, learning via LeetCode, building via TheOdinProject / FullStackOpen, and working with clients/employers on different projects.
+          Other time has been spent on helping my mother get through her MSN, healthy lifestyle, exploring interests, and finding time to read. 
+        </p>
       </section>
 
       <section class="info" id="education">
@@ -67,9 +62,9 @@
         </div>
         <div style="display: flex; justify-content: space-between; gap: 50px;">
           <em>Software Developer Intern (React, Next.js, Tailwind, WordPress)</em>
-          <span style="white-space: nowrap;">Aug. 2024 - Present</span>
+          <span style="white-space: nowrap;">Jan. 2025 - Present</span>
         </div>
-        <ul style="padding-left: 20px; padding-right: 160px;">
+        <ul style="padding-left: 20px; padding-right: 175px;">
           <li>Fullstack web dev and IT solutions, improving efficiency, performance, and cost savings</li>
           <li>Participated in project collaboration, contract, and consulting work with clients</li>
         </ul>
@@ -81,7 +76,7 @@
           <em>Software Developer Intern (Jupyter, Python)</em>
           <span style="white-space: nowrap;">May 2024 - Aug. 2024</span>
         </div>
-        <ul style="padding-left: 20px; padding-right: 150px;">
+        <ul style="padding-left: 20px; padding-right: 175px;">
           <li>Assisted in cancer data analysis, developing a prediction program initially using procedural 
             data processing algorithms and transitioning to machine learning, to accompany a graduate research project</li>
         </ul>
@@ -93,7 +88,7 @@
           <strong>UIC Formula Society of Automotive Engineers (FSAE)</strong>
           <span style="white-space: nowrap;">Jan. 2022 - June 2024</span>
         </div>
-        <ul style="padding-left: 20px; padding-right: 150px;">
+        <ul style="padding-left: 20px; padding-right: 175px;">
           <li>Formula Systems team member</li>
           <li>Designed and implemented an embedded vehicle data logging system using C++ on a Teensy microcontroller</li>
           <li>Collected and timestamped real-time vehicle data (RPM, throttle, speed, steering angle) at 100 Hz</li>
@@ -104,7 +99,7 @@
           <strong>UIC SparkHacks Hackathon</strong>
           <span style="white-space: nowrap;">Feb. 2024</span>
         </div>
-        <ul style="padding-left: 20px; padding-right: 150px;">
+        <ul style="padding-left: 20px; padding-right: 175px;">
           <li>Reworked and collaborated on a course project, Stay Safe Project, with a team</li>
         </ul>
         <div style="display: flex; justify-content: space-between; gap: 50px;">
@@ -158,8 +153,30 @@
     </div>
   </content>
 
-  <div id="footer"></div>
-  <footer></footer>
+  <footer id="footer"></footer>
 
 </body>
 </html>
+
+<!-- // create new branch for new front end design
+// buttons with semi circle sides
+// themes:
+// 	k background
+// 	t text colors
+
+// portfolio site system:
+// ctrl f:
+// fetch
+// json 
+
+responsive layout
+light/dark modes
+React/Vite
+Backend:
+  express
+  contact form api
+  database (postgres/sqlite)
+  admin routing
+CI/CD
+
+-->
