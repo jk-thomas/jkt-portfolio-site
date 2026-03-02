@@ -1,5 +1,5 @@
-import { createNavbar } from "/frontend/js/components/navBar.js";
-import { createFooter } from "/frontend/js/components/footer.js";
+import { createNavbar } from "./components/navBar.js";
+import { createFooter } from "./components/footer.js";
 import { createProjectCard } from "./components/projectCard.js";
 import { projects } from "./data/projects.data.js";
 
