@@ -1,5 +1,5 @@
-@import '/frontend/js/components/navBar.css';
-@import '/frontend/js/components/footer.css';
+@import '../js/components/navbar.css';
+@import '../js/components/footer.css';
 
 :root {
 	--background-primary: ;
