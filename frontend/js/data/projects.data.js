@@ -15,7 +15,7 @@ export const projects = [
     },
     {
         title: "Mission EMR",
-        description: "Team developed healthcare application suite",
+        description: "Team developed healthcare application suite for war torn regions",
         tech: ["Flutter", "Dart", "Hive"],
         github: "",
         live: ""
