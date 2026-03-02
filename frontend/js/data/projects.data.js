@@ -150,7 +150,7 @@ export const projects = [
         title: "TheOdinProject",
         description: "Frontend projects",
         tech: ["HTML/CSS", "Javascript", "React", "NodeJS"],
-        github: "",
+        github: "https://github.com/jk-thomas?tab=repositories&q=odin&type=&language=&sort=",
         live: ""
     },
     {
@@ -158,6 +158,13 @@ export const projects = [
         description: "Fullstack projects",
         tech: ["React", "Javascript", "NodeJS", "Express", "GraphQL", "Typescript", "PostgreSQL"],
         github: "https://github.com/jk-thomas/fullstackopen",
+        live: ""
+    },
+    {
+        title: "Mini Projects / Scripts",
+        description: "Smaller projects and scripts deployed on Raspberry Pi: xbox live clip scraper, offline dino game, speed type test, tripgas, secret santa",
+        tech: ["React", "Python", "C++"],
+        github: "",
         live: ""
     }
 ];
