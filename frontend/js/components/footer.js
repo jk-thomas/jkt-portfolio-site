@@ -14,7 +14,7 @@ export function createFooter() {
                 <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
                 <button type="submit">Send</button>
                 </form> -->
-                <a href="assets/Joshua_Thomas_Resume_CS.pdf" class="resume-btn" style="margin-right: 4px;" download="Joshua_Thomas_Resume.pdf">Resume</a>
+                <a href="/jkt-portfolio-site/assets/Joshua_Thomas_Resume_CS.pdf" class="resume-btn" style="margin-right: 4px;" download="Joshua_Thomas_Resume.pdf">Resume</a>
                 <!-- <a href="assets/Joshua_Thomas_Resume_CS.pdf" class="resume-btn" download>Download Resume</a> -->
                 <!--<a href="[google drive link] class="resume-btn" target="_blank">-->
             </div>
