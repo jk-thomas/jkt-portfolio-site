@@ -22,6 +22,7 @@
 .card:hover { 
     transform: translateY(-5px); 
     background: #54626b;
+    box-shadow: 0 1px 3px #2e2e2e;
 }
 .card img { 
     width: 100%; 
