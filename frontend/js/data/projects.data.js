@@ -19,7 +19,7 @@ export const projects = [
     {
         title: "Mission EMR",
         description: "Team developed healthcare application suite for war torn regions",
-        tech: ["Flutter", "Dart", "Hive"],
+        tech: ["Flutter", "Dart", "Hive (NoSQL)"],
         github: "https://github.com/jk-thomas/Mission-EMR",
         live: "",
         status: "complete"
@@ -27,7 +27,7 @@ export const projects = [
     {
         title: "Silent Space Locator",
         description: "Team developed mobile app to find nearest location with least noise",
-        tech: ["Java", "Android Studio"],
+        tech: ["Java", "Firebase", "Android Studio"],
         github: "https://github.com/jk-thomas/Silent-Spaces-Locator",
         live: "",
         status: "complete"
@@ -51,14 +51,14 @@ export const projects = [
     },
     {
         title: "Database Systems",
-        description: "Library management application using PostgreSQL",
-        tech: ["C++", "PostgreSQL"],
+        description: "Library management database application",
+        tech: ["Python", "PostgreSQL"],
         github: "https://github.com/jk-thomas/Library-Management-DB",
         live: ""
     },
     {
         title: "Artificial Intelligence",
-        description: "Search, Multi-agent Search, Reinforcement Learning, Machine Learning",
+        description: "Search, Multi-Agent Search, Reinforcement Learning, Machine Learning",
         tech: ["Python"],
         github: "https://github.com/jk-thomas/UIC/tree/main/CS411",
         live: ""
@@ -86,7 +86,7 @@ export const projects = [
     },
     {
         title: "Networked Chatroom",
-        description: "Real-time multiplayer game using Socket.io",
+        description: "Real-time client server chatroom",
         tech: ["Java", "FXML"],
         github: "https://github.com/jk-thomas/UIC/tree/main/CS342",
         live: ""
