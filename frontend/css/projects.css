@@ -50,6 +50,14 @@
     font-weight: bold; 
     color: var(--link-hover); 
 }
+.project-header {
+    display: flex;
+    justify-content: space-between;
+}
+.status-icon {
+    cursor: help;
+    display: inline-block;
+}
 .project-links {
     margin-top: auto;
     display: flex;

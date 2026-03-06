@@ -4,48 +4,56 @@ export const projects = [
         description: "This site, containerized and deployed on a self-hosted Raspberry Pi using Docker and reverse proxy routing ",
         tech: ["HTML/CSS", "Javascript", "Docker", "Nginx"],
         github: "https://github.com/jk-thomas/jkt-portfolio-site",
-        live: ""
+        live: "",
+        status: "in-progress",
+        version: "v1"
     },
     {
         title: "ValetConnect",
         description: "Real-time valet service management system, instant messaging between staff and customers",
         tech: ["React", "NodeJS", "PostgreSQL", "Docker", "Firebase", "AWS"],
         github: "",
-        live: ""
+        live: "",
+        status: "planned"
     },
     {
         title: "Mission EMR",
         description: "Team developed healthcare application suite for war torn regions",
         tech: ["Flutter", "Dart", "Hive"],
-        github: "",
-        live: ""
+        github: "https://github.com/jk-thomas/Mission-EMR",
+        live: "",
+        status: "complete"
     },
     {
         title: "Silent Space Locator",
         description: "Team developed mobile app to find nearest location with least noise",
         tech: ["Java", "Android Studio"],
-        github: "",
-        live: ""
+        github: "https://github.com/jk-thomas/Silent-Spaces-Locator",
+        live: "",
+        status: "complete"
     },
     {
         title: "UOMe",
         description: "Lite web app for tracking shared purchases in a group and auto calculates payments",
         tech: ["React", "NodeJS", "Express", "SQLite"],
         github: "https://github.com/jk-thomas/UOMe",
-        live: "https://uome-gamma.vercel.app/"
+        live: "https://uome-gamma.vercel.app/",
+        status: "in-progress",
+        version: "v1"
     },
     {
         title: "BlogSystem",
         description: "A blogging website made using the classic LAMP stack",
         tech: ["Linux", "Apache", "MySQL", "PHP"],
         github: "https://github.com/jk-thomas/BlogSystem",
-        live: ""
+        live: "",
+        status: "complete"
     },
     {
         title: "Database Systems",
         description: "Library management application using PostgreSQL",
         tech: ["C++", "PostgreSQL"],
-        github: "",
+        github: "https://github.com/jk-thomas/Library-Management-DB",
         live: ""
     },
     {

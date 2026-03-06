@@ -6,7 +6,7 @@ export function createFooter() {
             <div class="container">
                 <h2>Contact & Resume</h2>
                 <p>joshkthom@gmail.com</p>
-                <p><a href="linkedin.com/in/joshua-thomas-29b1b9164/">LinkedIn</a></p>
+                <p><a href="linkedin.com/in/joshuakthomas/">LinkedIn</a></p>
                 <p><a href="https://github.com/jk-thomas">GitHub</a></p>
                 <!-- <form action="mailto:you@example.com" method="post" enctype="text/plain">
                 <input type="text" name="name" placeholder="Your Name" required>
