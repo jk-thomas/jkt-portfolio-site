@@ -27,7 +27,7 @@ export const projects = [
     {
         title: "Silent Space Locator",
         description: "Team developed mobile app to find nearest location with least noise",
-        tech: ["Java", "Firebase", "Android Studio"],
+        tech: ["Java", "Google Maps/Auth SDK", "Android Studio"],
         github: "https://github.com/jk-thomas/Silent-Spaces-Locator",
         live: "",
         status: "complete"
@@ -156,7 +156,7 @@ export const projects = [
     },
     {
         title: "TheOdinProject",
-        description: "Frontend projects",
+        description: "Frontend / fullstack projects",
         tech: ["HTML/CSS", "Javascript", "React", "NodeJS"],
         github: "https://github.com/jk-thomas?tab=repositories&q=odin&type=&language=&sort=",
         live: ""
